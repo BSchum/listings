@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+gem 'route_translator'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use Puma as the app server
@@ -13,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'devise'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -26,11 +28,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'sqlite3'
-#gem 'carrierwave'
+gem 'carrierwave'
 #gem 'route_translator'
 #gem 'devise'
-#gem 'rails_admin', '~> 1.0'
-#gem 'fog'
+gem 'rails_admin', '~> 1.0'
+gem 'fog'
 gem 'haml-rails'
 #gem 'apipie-rails'
 
@@ -58,4 +60,3 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'byebug', platform: :mri
 end
-

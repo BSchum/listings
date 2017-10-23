@@ -1,0 +1,9 @@
+-@listings.each do |listing|
+  .row
+    .col-xs-12.listing
+      %h3= listing.title
+      /%p.date
+    .row
+      .col-xs-2
+        %a{href: listing_path(listing)}
+          = image_tag listing.picture, width: 300, class: 'img-responsive'
