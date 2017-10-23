@@ -22,18 +22,19 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
-
+gem 'wdm'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'sqlite3'
-#gem 'carrierwave'
-#gem 'route_translator'
-#gem 'devise'
-#gem 'rails_admin', '~> 1.0'
-#gem 'fog'
+gem 'carrierwave'
+gem 'route_translator'
+gem 'devise'
+gem 'rails_admin', '~> 1.0'
+gem 'fog'
 gem 'haml-rails'
 #gem 'apipie-rails'
-
+gem 'tzinfo-data'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 group :test do
   gem 'launchy'
   gem 'minitest'

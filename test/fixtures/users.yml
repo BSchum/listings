@@ -1,0 +1,6 @@
+seller:
+  email: 'seller@domain.com'
+  role: user_role
+  first_name: 'john'
+  last_name: 'snow'
+

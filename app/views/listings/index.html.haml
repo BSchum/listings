@@ -1,0 +1,4 @@
+- @listings.each do |i|
+  %div{style: 'color:black'}= i.title
+  %a{href: listing_path(i)}
+    = image_tag i.picture, width: 300, class: 'img-responsive'
